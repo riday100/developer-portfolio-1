@@ -1,3 +1,43 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.flexible-container{
+    display:flex;
+}
+span{
+    color:orange;
+}
+h1{
+    font-size:50px;
+}
+a{
+    background-image:linear-gradient(salmon,orange);
+    color:white;
+    text-decoration:none;
+    padding:10px 30px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:7px;
+}
+.half-width{
+    width:50%;
+    padding:5%;
+    text-align:justify;
+
+}
+.half-width img{
+    width:90%;
+}
+.top-banner{
+    background-image:url(./images/top-banner.png);
+    background-repeat:no-repeat;   
+}
+.dream-bd-banner{
+    background-image:url(./images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;    ;
+}
+h3{
+    color:orange;
 }
